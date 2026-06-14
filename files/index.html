@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chaka Plants | Premium Plant Nursery &amp; Landscaping in Addis Ababa</title>
+<meta name="description" content="Chaka Plants is Addis Ababa's premier plant nursery and landscaping marketplace, offering quality houseplants, outdoor plants, landscape design, and expert gardening consultation across Ethiopia.">
+<meta name="keywords" content="Chaka Plants, plant nursery Addis Ababa, landscaping Ethiopia, buy plants Addis Ababa, garden design, Le Jardin de Kakoo">
+<meta property="og:title" content="Chaka Plants - Discover the Beauty of Nature">
+<meta property="og:description" content="Premium plants, landscape design, and nursery marketplace serving Addis Ababa and all of Ethiopia.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://chakaplants.com">
+<meta property="og:image" content="https://www.chakaplants.com/images/web-app-manifest-512x512.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="https://www.chakaplants.com/images/web-app-manifest-512x512.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Scroll progress -->
+<div class="scroll-progress" id="scrollProgress"></div>
+
+<!-- ===== HEADER / NAV ===== -->
+<header class="site-header" id="siteHeader">
+  <div class="container nav-inner">
+    <a href="#home" class="logo">
+      <img src="https://www.chakaplants.com/images/web-app-manifest-512x512.png" alt="Chaka Plants logo" class="logo-img">
+      <span class="logo-text">Chaka <span>Plants</span></span>
+    </a>
+
+    <nav class="main-nav" id="mainNav" aria-label="Primary navigation">
+      <ul>
+        <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+        <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+        <li><a href="#shop" class="nav-link" data-section="shop">Plants &amp; Shop</a></li>
+        <li><a href="#services" class="nav-link" data-section="services">Services</a></li>
+        <li><a href="#gallery" class="nav-link" data-section="gallery">Gallery</a></li>
+        <li><a href="#partners" class="nav-link" data-section="partners">Partners</a></li>
+        <li><a href="#faq" class="nav-link" data-section="faq">FAQ</a></li>
+        <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-primary nav-cta">Get a Quote</a>
+    </nav>
+
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false" aria-controls="mainNav">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section id="home" class="hero">
+  <div class="hero-bg" id="heroBg" style="background-image:url('https://www.chakaplants.com/images/ChatGPT%20Image%20May%2014,%202025,%2002_42_40%20PM.png');"></div>
+  <div class="hero-overlay"></div>
+  <div class="hero-leaves" aria-hidden="true">
+    <svg viewBox="0 0 200 200" class="leaf leaf-1"><path d="M100 10 C160 40 180 110 100 190 C20 110 40 40 100 10 Z" fill="currentColor"/></svg>
+    <svg viewBox="0 0 200 200" class="leaf leaf-2"><path d="M100 10 C160 40 180 110 100 190 C20 110 40 40 100 10 Z" fill="currentColor"/></svg>
+    <svg viewBox="0 0 200 200" class="leaf leaf-3"><path d="M100 10 C160 40 180 110 100 190 C20 110 40 40 100 10 Z" fill="currentColor"/></svg>
+  </div>
+
+  <div class="container hero-content">
+    <p class="eyebrow fade-up">Addis Ababa &middot; Bole Japan</p>
+    <h1 class="hero-title fade-up">Discover the Beauty of Nature with <span>Chaka Plants</span></h1>
+    <p class="hero-sub fade-up">Bring life to your home and garden with our premium plants and expert care.</p>
+    <div class="hero-actions fade-up">
+      <a href="#shop" class="btn btn-primary">Shop Now</a>
+      <a href="#about" class="btn btn-ghost">Learn More</a>
+    </div>
+  </div>
+
+  <a href="#stats" class="scroll-cue" aria-label="Scroll down">
+    <span></span>
+  </a>
+</section>
+
+<!-- ===== STATS ===== -->
+<section id="stats" class="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-card fade-up">
+        <span class="stat-number" data-target="3500" data-suffix="+">0</span>
+        <span class="stat-label">Total Plants</span>
+      </div>
+      <div class="stat-card fade-up">
+        <span class="stat-number" data-target="77">0</span>
+        <span class="stat-label">Plant Varieties</span>
+      </div>
+      <div class="stat-card fade-up">
+        <span class="stat-number" data-target="2500" data-suffix="+">0</span>
+        <span class="stat-label">Cultivated This Year</span>
+      </div>
+      <div class="stat-card fade-up">
+        <span class="stat-number" data-target="5">0</span>
+        <span class="stat-label">Partner Nurseries</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section id="about" class="about">
+  <div class="container about-grid">
+    <div class="about-media fade-up">
+      <div class="about-img-wrap">
+        <img src="https://www.chakaplants.com/images/garden1.jpg" alt="Beautiful garden design at Chaka Plants nursery" loading="lazy" class="about-img-main">
+        <img src="https://www.chakaplants.com/images/nur.jpg" alt="Thriving garden plants at Chaka Plants nursery" loading="lazy" class="about-img-floating">
+      </div>
+    </div>
+    <div class="about-copy">
+      <p class="eyebrow fade-up">About Us 🌱</p>
+      <h2 class="section-title fade-up">Your Premier Destination for a Diverse Range of Plants</h2>
+      <p class="fade-up">Welcome to <strong>Chaka Plants</strong>. We believe that every home deserves a touch of greenery, and we are here to help you find the perfect plants to suit your style and needs. At Chaka Plants, we believe in the beauty of nature and the importance of nurturing plants to create a greener world. Our nursery is home to a wide variety of plants, from exotic flowers to everyday houseplants.</p>
+
+      <div class="about-pillars">
+        <div class="pillar fade-up">
+          <div class="pillar-icon">🌿</div>
+          <div>
+            <h3>Quality Plants</h3>
+            <p>From vibrant houseplants to majestic trees and delicate ferns, we ensure all our plants are grown with the highest care, healthy and ready to thrive in your care.</p>
+          </div>
+        </div>
+        <div class="pillar fade-up">
+          <div class="pillar-icon">🛠️</div>
+          <div>
+            <h3>Expert Guidance</h3>
+            <p>Our knowledgeable team is passionate about gardening and is always available to provide tips and support for your gardening journey.</p>
+          </div>
+        </div>
+        <div class="pillar fade-up">
+          <div class="pillar-icon">🌍</div>
+          <div>
+            <h3>Sustainable Practices</h3>
+            <p>We are committed to eco-friendly and sustainable gardening practices, ensuring our plants are sourced responsibly for a better tomorrow.</p>
+          </div>
+        </div>
+      </div>
+
+      <p class="fade-up about-closing">Join us in building your green paradise! Whether you're a seasoned gardener or just starting out, we have everything you need to create a beautiful, thriving garden.</p>
+      <a href="#contact" class="btn btn-primary fade-up">Discover More About Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SHOP / PLANTS ===== -->
+<section id="shop" class="shop">
+  <div class="container">
+    <div class="section-head fade-up">
+      <p class="eyebrow">Featured Plants</p>
+      <h2 class="section-title">Our Plant Collection</h2>
+      <p class="section-desc">A curated look at some of the healthy, well-maintained plants currently available from Chaka Plants. Use search and filters to explore by category.</p>
+    </div>
+
+    <div class="shop-controls fade-up">
+      <div class="search-box">
+        <svg viewBox="0 0 24 24" class="icon-svg"><path d="M21 21l-4.35-4.35M11 19a8 8 0 100-16 8 8 0 000 16z" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        <input type="text" id="plantSearch" placeholder="Search plants e.g. succulent, petunia, camel foot...">
+      </div>
+      <div class="filter-chips" id="filterChips">
+        <button class="chip active" data-filter="all">All Plants</button>
+        <button class="chip" data-filter="succulent">Succulents</button>
+        <button class="chip" data-filter="flowering">Flowering</button>
+        <button class="chip" data-filter="tree">Trees &amp; Shrubs</button>
+        <button class="chip" data-filter="available">In Stock</button>
+      </div>
+    </div>
+
+    <div class="plant-grid" id="plantGrid">
+      <!-- Plant Card 1 -->
+      <article class="plant-card fade-up" data-category="succulent available" data-name="irish rose succulent aeonium arboreum">
+        <div class="plant-img-wrap">
+          <img src="https://www.chakaplants.com/database/uploads/photo_686785cbb0e922.32195750.webp" alt="Irish Rose Succulent (Aeonium arboreum)" loading="lazy">
+          <span class="plant-badge">In Stock</span>
+        </div>
+        <div class="plant-info">
+          <h3>Irish Rose Succulent</h3>
+          <p class="plant-latin">Aeonium arboreum</p>
+          <p class="plant-desc">Succulent with rosettes of waxy green to purple leaves; drought-tolerant and ideal for containers or sunny spots.</p>
+          <div class="plant-meta">
+            <span class="price">250.00 Birr <small>(large)</small></span>
+            <a href="https://www.chakaplants.com/pages/view_shop.php?plant_id=113" target="_blank" rel="noopener" class="btn btn-small">View &amp; Order</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Plant Card 2 -->
+      <article class="plant-card fade-up" data-category="flowering available" data-name="mexican petunia ruellia simplex">
+        <div class="plant-img-wrap">
+          <img src="https://www.chakaplants.com/database/uploads/photo_68448c4899ab17.25262900.jpg" alt="Mexican Petunia (Ruellia simplex)" loading="lazy">
+          <span class="plant-badge">In Stock</span>
+        </div>
+        <div class="plant-info">
+          <h3>Mexican Petunia</h3>
+          <p class="plant-latin">Ruellia simplex</p>
+          <p class="plant-desc">Bushy perennial with trumpet-shaped purple, pink, or white flowers. Thrives in full sun to partial shade.</p>
+          <div class="plant-meta">
+            <span class="price">150.00 Birr <small>(small)</small></span>
+            <a href="https://www.chakaplants.com/pages/view_shop.php?plant_id=219" target="_blank" rel="noopener" class="btn btn-small">View &amp; Order</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Plant Card 3 -->
+      <article class="plant-card fade-up" data-category="tree available" data-name="camel foot bauhinia purpurea">
+        <div class="plant-img-wrap">
+          <img src="https://www.chakaplants.com/database/uploads/plant_68656168252172.13437821.jpg" alt="Camel Foot (Bauhinia purpurea)" loading="lazy">
+          <span class="plant-badge">In Stock</span>
+        </div>
+        <div class="plant-info">
+          <h3>Camel Foot</h3>
+          <p class="plant-latin">Bauhinia purpurea</p>
+          <p class="plant-desc">Ornamental tree with orchid-like flowers, well suited to Addis Ababa's climate. Loves full sun.</p>
+          <div class="plant-meta">
+            <span class="price">2,500.00 Birr <small>(xlarge)</small></span>
+            <a href="https://www.chakaplants.com/pages/view_shop.php?plant_id=223" target="_blank" rel="noopener" class="btn btn-small">View &amp; Order</a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <p class="no-results" id="noResults" hidden>No plants match your search. Try a different keyword or filter.</p>
+
+    <div class="shop-cta fade-up">
+      <p>Browse our full marketplace of <strong>3,500+ plants across 77 varieties</strong> from Chaka Plants and our partner nurseries.</p>
+      <a href="https://www.chakaplants.com/pages/shop.php" target="_blank" rel="noopener" class="btn btn-primary btn-large">Shop Now — View Full Catalog</a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section id="services" class="services">
+  <div class="container">
+    <div class="section-head fade-up center">
+      <p class="eyebrow">What We Do</p>
+      <h2 class="section-title">Our Services</h2>
+      <p class="section-desc">From design to delivery, Chaka Plants supports every stage of your gardening and landscaping journey.</p>
+    </div>
+
+    <div class="services-grid">
+      <div class="service-card fade-up">
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M6 40 L42 40"/><path d="M24 40 V18"/><path d="M24 18 C12 18 8 8 8 8 C8 8 18 6 24 18 Z"/><path d="M24 18 C36 18 40 8 40 8 C40 8 30 6 24 18 Z"/></svg>
+        </div>
+        <h3>Landscape Design</h3>
+        <p>We offer expert landscape design services to transform your space into a natural wonder &mdash; tailored to your home, business, or event.</p>
+      </div>
+
+      <div class="service-card fade-up">
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="14" width="36" height="26" rx="2"/><path d="M6 22 H42"/><path d="M16 14 V8 H32 V14"/></svg>
+        </div>
+        <h3>Nursery Marketplace</h3>
+        <p>Our platform brings together plant nurseries across Ethiopia, offering a convenient marketplace to buy and sell a wide variety of plants and seedlings.</p>
+      </div>
+
+      <div class="service-card fade-up">
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="24" cy="18" r="8"/><path d="M10 42 C10 32 16 28 24 28 C32 28 38 32 38 42"/></svg>
+        </div>
+        <h3>Consultation</h3>
+        <p>Need expert advice? We offer consultation services to help you achieve your garden dreams, from plant selection to ongoing care.</p>
+      </div>
+
+      <div class="service-card fade-up">
+        <div class="service-icon">
+          <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M24 4 C30 12 34 18 34 26 a10 10 0 0 1-20 0 C14 18 18 12 24 4 Z"/><path d="M24 26 V44"/></svg>
+        </div>
+        <h3>Bulk &amp; Event Orders</h3>
+        <p>We specialize in providing plants for events like weddings, corporate functions, and more. Reach out to discuss your requirements.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GALLERY ===== -->
+<section id="gallery" class="gallery">
+  <div class="container">
+    <div class="section-head fade-up center">
+      <p class="eyebrow">Our Nursery</p>
+      <h2 class="section-title">Gallery</h2>
+      <p class="section-desc">A glimpse into our nursery, gardens, and the plants we grow with care.</p>
+    </div>
+
+    <div class="masonry" id="masonryGrid">
+      <div class="masonry-item fade-up" data-full="https://www.chakaplants.com/images/garden1.jpg" data-caption="Beautiful Garden Design — Creating stunning outdoor spaces with a natural touch.">
+        <img src="https://www.chakaplants.com/images/garden1.jpg" alt="Beautiful garden design at Chaka Plants" loading="lazy">
+        <div class="masonry-overlay"><span>Beautiful Garden Design</span></div>
+      </div>
+      <div class="masonry-item fade-up" data-full="https://www.chakaplants.com/images/nur2.jpg" data-caption="Lush Garden Landscape — Enhancing your garden with vibrant landscapes.">
+        <img src="https://www.chakaplants.com/images/nur2.jpg" alt="Lush garden landscape at Chaka Plants" loading="lazy">
+        <div class="masonry-overlay"><span>Lush Garden Landscape</span></div>
+      </div>
+      <div class="masonry-item fade-up" data-full="https://www.chakaplants.com/images/nur.jpg" data-caption="Thriving Garden Plants — Providing a variety of healthy, well-maintained plants.">
+        <img src="https://www.chakaplants.com/images/nur.jpg" alt="Thriving garden plants at Chaka Plants" loading="lazy">
+        <div class="masonry-overlay"><span>Thriving Garden Plants</span></div>
+      </div>
+      <div class="masonry-item fade-up" data-full="https://www.chakaplants.com/database/uploads/photo_686785cbb0e922.32195750.webp" data-caption="Irish Rose Succulent (Aeonium arboreum)">
+        <img src="https://www.chakaplants.com/database/uploads/photo_686785cbb0e922.32195750.webp" alt="Irish Rose Succulent" loading="lazy">
+        <div class="masonry-overlay"><span>Irish Rose Succulent</span></div>
+      </div>
+      <div class="masonry-item fade-up" data-full="https://www.chakaplants.com/database/uploads/photo_68448c4899ab17.25262900.jpg" data-caption="Mexican Petunia (Ruellia simplex)">
+        <img src="https://www.chakaplants.com/database/uploads/photo_68448c4899ab17.25262900.jpg" alt="Mexican Petunia" loading="lazy">
+        <div class="masonry-overlay"><span>Mexican Petunia</span></div>
+      </div>
+      <div class="masonry-item fade-up" data-full="https://www.chakaplants.com/database/uploads/plant_68656168252172.13437821.jpg" data-caption="Camel Foot (Bauhinia purpurea)">
+        <img src="https://www.chakaplants.com/database/uploads/plant_68656168252172.13437821.jpg" alt="Camel Foot" loading="lazy">
+        <div class="masonry-overlay"><span>Camel Foot</span></div>
+      </div>
+      <div class="masonry-item fade-up" data-full="https://www.chakaplants.com/images/ChatGPT%20Image%20May%2014,%202025,%2002_42_40%20PM.png" data-caption="Chaka Plants — Discover the Beauty of Nature">
+        <img src="https://www.chakaplants.com/images/ChatGPT%20Image%20May%2014,%202025,%2002_42_40%20PM.png" alt="Chaka Plants hero imagery" loading="lazy">
+        <div class="masonry-overlay"><span>Chaka Plants Nursery</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PARTNERS ===== -->
+<section id="partners" class="partners">
+  <div class="container">
+    <div class="section-head fade-up center">
+      <p class="eyebrow">Our Network</p>
+      <h2 class="section-title">Our Partners</h2>
+      <p class="section-desc">Chaka Plants connects you with trusted nurseries across Ethiopia.</p>
+    </div>
+  </div>
+
+  <div class="partner-track-wrap">
+    <div class="partner-track" id="partnerTrack">
+      <a href="https://www.chakaplants.com/pages/view_profile.php?id=7" target="_blank" rel="noopener" class="partner-card">
+        <h3>Birhanu Garden</h3>
+        <p>Retail &middot; Wholesale &middot; Indoor Plants &middot; Outdoor Plants</p>
+      </a>
+      <a href="https://www.chakaplants.com/pages/view_profile.php?id=10" target="_blank" rel="noopener" class="partner-card">
+        <h3>Genet Abebe Garden</h3>
+        <p>Retail &middot; Wholesale &middot; Online &middot; Indoor Plants &middot; Outdoor Plants</p>
+      </a>
+      <a href="https://www.chakaplants.com/pages/view_profile.php?id=8" target="_blank" rel="noopener" class="partner-card">
+        <h3>Le Jardin de Kakoo</h3>
+        <p>Retail &middot; Indoor Plants</p>
+      </a>
+      <a href="https://www.chakaplants.com/pages/view_profile.php?id=9" target="_blank" rel="noopener" class="partner-card">
+        <h3>Mohammed Plant</h3>
+        <p>Retail &middot; Wholesale &middot; Online &middot; Indoor Plants &middot; Outdoor Plants</p>
+      </a>
+      <a href="https://www.chakaplants.com/pages/view_profile.php?id=12" target="_blank" rel="noopener" class="partner-card">
+        <h3>Musema Plant Nursery</h3>
+        <p>Retail &middot; Wholesale &middot; Online &middot; Indoor Plants &middot; Outdoor Plants</p>
+      </a>
+      <!-- duplicate set for seamless loop -->
+      <a href="https://www.chakaplants.com/pages/view_profile.php?id=7" target="_blank" rel="noopener" class="partner-card" aria-hidden="true">
+        <h3>Birhanu Garden</h3>
+        <p>Retail &middot; Wholesale &middot; Indoor Plants &middot; Outdoor Plants</p>
+      </a>
+      <a href="https://www.chakaplants.com/pages/view_profile.php?id=10" target="_blank" rel="noopener" class="partner-card" aria-hidden="true">
+        <h3>Genet Abebe Garden</h3>
+        <p>Retail &middot; Wholesale &middot; Online &middot; Indoor Plants &middot; Outdoor Plants</p>
+      </a>
+      <a href="https://www.chakaplants.com/pages/view_profile.php?id=8" target="_blank" rel="noopener" class="partner-card" aria-hidden="true">
+        <h3>Le Jardin de Kakoo</h3>
+        <p>Retail &middot; Indoor Plants</p>
+      </a>
+      <a href="https://www.chakaplants.com/pages/view_profile.php?id=9" target="_blank" rel="noopener" class="partner-card" aria-hidden="true">
+        <h3>Mohammed Plant</h3>
+        <p>Retail &middot; Wholesale &middot; Online &middot; Indoor Plants &middot; Outdoor Plants</p>
+      </a>
+      <a href="https://www.chakaplants.com/pages/view_profile.php?id=12" target="_blank" rel="noopener" class="partner-card" aria-hidden="true">
+        <h3>Musema Plant Nursery</h3>
+        <p>Retail &middot; Wholesale &middot; Online &middot; Indoor Plants &middot; Outdoor Plants</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section id="faq" class="faq">
+  <div class="container faq-grid">
+    <div class="faq-intro fade-up">
+      <p class="eyebrow">Good to Know</p>
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <p class="section-desc">Answers to the questions we hear most from customers across Addis Ababa.</p>
+      <a href="https://www.chakaplants.com/pages/shop.php" target="_blank" rel="noopener" class="btn btn-primary">Place an Order</a>
+    </div>
+
+    <div class="accordion fade-up" id="accordion">
+      <div class="accordion-item">
+        <button class="accordion-trigger" aria-expanded="false">
+          <span>How can I place an order?</span>
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-panel">
+          <p>You can place an order through our <a href="https://www.chakaplants.com/pages/order_page.php" target="_blank" rel="noopener">order form</a>, or contact us via phone, email, or social media to discuss your needs.</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-trigger" aria-expanded="false">
+          <span>What is your delivery area?</span>
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-panel">
+          <p>We deliver within Addis Ababa and the surrounding areas. For orders outside of Addis, please contact us to arrange special delivery options.</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-trigger" aria-expanded="false">
+          <span>Do you offer bulk orders for events?</span>
+          <span class="accordion-icon">+</span>
+        </button>
+        <div class="accordion-panel">
+          <p>Yes, we specialize in providing plants for events like weddings, corporate functions, and more. Please reach out to discuss your requirements.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section id="contact" class="contact">
+  <div class="container">
+    <div class="section-head fade-up center">
+      <p class="eyebrow">Get In Touch</p>
+      <h2 class="section-title">Contact Us</h2>
+      <p class="section-desc">Have a question, want to place an order, or need a landscaping quote? Reach out &mdash; we'd love to help.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-info fade-up">
+        <div class="info-card">
+          <div class="info-icon">📍</div>
+          <div>
+            <h3>Address</h3>
+            <p>Addis Ababa, Bole Japan</p>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">📞</div>
+          <div>
+            <h3>Phone</h3>
+            <p><a href="tel:+251940384999">+251 940 384 999</a></p>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">✉️</div>
+          <div>
+            <h3>Email</h3>
+            <p><a href="mailto:nigusuyamin@gmail.com">nigusuyamin@gmail.com</a></p>
+          </div>
+        </div>
+        <div class="info-card">
+          <div class="info-icon">💬</div>
+          <div>
+            <h3>Chat With Us</h3>
+            <p><a href="https://wa.me/message/47J4IQW4KT3SL1" target="_blank" rel="noopener">WhatsApp Us Directly</a></p>
+          </div>
+        </div>
+
+        <div class="social-row">
+          <a href="https://www.facebook.com/lejardindekakoo" target="_blank" rel="noopener" aria-label="Facebook" class="social-btn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12.07C22 6.5 17.52 2 12 2S2 6.5 2 12.07c0 5 3.66 9.13 8.44 9.93v-7.03H7.9v-2.9h2.54V9.41c0-2.5 1.49-3.89 3.78-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.45 2.9h-2.33V22c4.78-.8 8.44-4.93 8.44-9.93Z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/lejardindekakoo" target="_blank" rel="noopener" aria-label="Instagram" class="social-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="https://t.me/LeGiardinDeKakoo" target="_blank" rel="noopener" aria-label="Telegram" class="social-btn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 2 2 10.5l6.5 2.4L11 20l3-4 5 3 3-17Z"/></svg>
+          </a>
+          <a href="https://www.tiktok.com/@plantparadise25" target="_blank" rel="noopener" aria-label="TikTok" class="social-btn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 2c.4 2 1.8 3.6 3.8 4v3a8 8 0 0 1-3.8-1v6.2a5.3 5.3 0 1 1-5.3-5.3c.4 0 .8 0 1.2.1v3.1a2.2 2.2 0 1 0 1.6 2.1V2h2.5Z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form fade-up" id="contactForm" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <span class="error-msg" data-for="name">Please enter your name.</span>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <span class="error-msg" data-for="email">Please enter a valid email address.</span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="phone">Phone (optional)</label>
+          <input type="tel" id="phone" name="phone">
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <span class="error-msg" data-for="message">Please enter a message.</span>
+        </div>
+        <button type="submit" class="btn btn-primary btn-large">Send Message</button>
+        <p class="form-success" id="formSuccess" role="status" hidden>Thank you! Your message has been received — we'll get back to you soon. For urgent inquiries, please WhatsApp us directly.</p>
+      </form>
+    </div>
+
+    <div class="map-wrap fade-up">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126494.30914619711!2d9.03675487403893!3d8.980501360859866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b85b6aa6e9061%3A0xd3e09f1546337351!2sLe%20Jardin%20de%20Kakoo!5e0!3m2!1sen!2set!4v1632579082244!5m2!1sen!2set"
+        width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+        title="Chaka Plants location map - Addis Ababa, Bole Japan"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ===== NEWSLETTER ===== -->
+<section class="newsletter">
+  <div class="container newsletter-inner fade-up">
+    <div>
+      <h2>Grow With Us</h2>
+      <p>Subscribe for seasonal planting tips, new arrivals, and offers from Chaka Plants.</p>
+    </div>
+    <form class="newsletter-form" id="newsletterForm">
+      <input type="email" placeholder="Enter your email address" required aria-label="Email address for newsletter">
+      <button type="submit" class="btn btn-primary">Subscribe</button>
+    </form>
+    <p class="newsletter-success" id="newsletterSuccess" role="status" hidden>Thanks for subscribing! 🌿</p>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="#home" class="logo">
+        <img src="https://www.chakaplants.com/images/web-app-manifest-512x512.png" alt="Chaka Plants logo" class="logo-img">
+        <span class="logo-text">Chaka <span>Plants</span></span>
+      </a>
+      <p>Your trusted plant nursery for premium quality plants and gardening supplies.</p>
+      <a href="https://www.chakaplants.com/database/users/login_seller.php" target="_blank" rel="noopener" class="footer-seller-link">Seller Login &rarr;</a>
+    </div>
+
+    <div class="footer-col">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Contact</h3>
+      <ul>
+        <li><a href="tel:+251940384999">+251 940 384 999</a></li>
+        <li><a href="mailto:nigusuyamin@gmail.com">nigusuyamin@gmail.com</a></li>
+        <li>Addis Ababa, Bole Japan</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Follow Us</h3>
+      <div class="social-row">
+        <a href="https://www.facebook.com/lejardindekakoo" target="_blank" rel="noopener" aria-label="Facebook" class="social-btn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 12.07C22 6.5 17.52 2 12 2S2 6.5 2 12.07c0 5 3.66 9.13 8.44 9.93v-7.03H7.9v-2.9h2.54V9.41c0-2.5 1.49-3.89 3.78-3.89 1.09 0 2.24.2 2.24.2v2.46h-1.26c-1.24 0-1.63.77-1.63 1.56v1.88h2.78l-.45 2.9h-2.33V22c4.78-.8 8.44-4.93 8.44-9.93Z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/lejardindekakoo" target="_blank" rel="noopener" aria-label="Instagram" class="social-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        </a>
+        <a href="https://t.me/LeGiardinDeKakoo" target="_blank" rel="noopener" aria-label="Telegram" class="social-btn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M22 2 2 10.5l6.5 2.4L11 20l3-4 5 3 3-17Z"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/@plantparadise25" target="_blank" rel="noopener" aria-label="TikTok" class="social-btn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M16.5 2c.4 2 1.8 3.6 3.8 4v3a8 8 0 0 1-3.8-1v6.2a5.3 5.3 0 1 1-5.3-5.3c.4 0 .8 0 1.2.1v3.1a2.2 2.2 0 1 0 1.6 2.1V2h2.5Z"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <p>&copy; 2024 Chaka Plants. All Rights Reserved.</p>
+    <div class="footer-legal">
+      <a href="https://www.chakaplants.com/database/privacy_policy.php" target="_blank" rel="noopener">Privacy Policy</a>
+      <span>|</span>
+      <a href="#">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ===== FLOATING BUTTONS ===== -->
+<a href="https://wa.me/message/47J4IQW4KT3SL1" target="_blank" rel="noopener" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1-1.4-.6-2.4-1.4-3.2-2.7-.1-.2-.1-.4 0-.5.2-.2.4-.5.6-.7.1-.2.1-.4 0-.6-.1-.2-.6-1.5-.8-2-.1-.4-.3-.4-.5-.4h-.5c-.2 0-.5.1-.7.3-.3.3-1 .9-1 2.3 0 1.4 1 2.7 1.1 2.9.1.2 1.9 3 4.7 4.1 2.2.9 2.7.7 3.1.7.5-.1 1.6-.6 1.8-1.3.2-.6.2-1.2.2-1.3-.1-.1-.2-.1-.5-.2Z"/><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l4.9-1.3A10 10 0 1 0 12 2Zm0 18.3a8.3 8.3 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.3 8.3 0 1 1 12 20.3Z"/></svg>
+</a>
+
+<button class="back-to-top" id="backToTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M5 12l7-7 7 7"/></svg>
+</button>
+
+<!-- ===== LIGHTBOX ===== -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-hidden="true">
+  <button class="lightbox-close" id="lightboxClose" aria-label="Close image viewer">&times;</button>
+  <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image">&#8249;</button>
+  <img src="" alt="" id="lightboxImg">
+  <p class="lightbox-caption" id="lightboxCaption"></p>
+  <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image">&#8250;</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
